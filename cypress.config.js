@@ -10,7 +10,6 @@ module.exports = defineConfig({
      screenshotOnRunFailure: true,
      videosFolder: 'cypress/videos',
      video: true,
-     retries:{ runMode: 2, openMode: 1 },
      downloadsFolder:'cypress/downloads',
 
   },
