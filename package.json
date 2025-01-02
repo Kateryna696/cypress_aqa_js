@@ -11,7 +11,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.16.1",
+     "cypress": "^13.16.1",
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.2"
     "mochawesome": "^7.1.3"
   }
 }
