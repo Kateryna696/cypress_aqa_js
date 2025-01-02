@@ -4,14 +4,17 @@
   "description": "",
   "main": "cypress.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:config1:file": "npx cypress run  --config-file=cypress.config.js --spec",
+    "test:config2:file": "npx cypress run  --config-file=cypress2.config.js --spec"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.16.1"
+     "cypress": "^13.16.1",
   },
   "dependencies": {
     "cypress-plugin-api": "^2.11.2"
+    "mochawesome": "^7.1.3"
   }
 }
